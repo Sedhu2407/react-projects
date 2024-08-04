@@ -1,0 +1,43 @@
+.dish {
+  display: flex;
+  gap: 3.2rem;
+}
+
+.dish img {
+  width: 12rem;
+  aspect-ratio: 1;
+  align-self: start;
+}
+
+.dish div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding: 0.4rem 0;
+}
+
+.dish h3 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.dish p {
+  font-size: 1.4rem;
+  font-weight: 300;
+  font-style: italic;
+  margin-bottom: auto;
+}
+
+.dish span {
+  display: block;
+  font-size: 1.6rem;
+}
+
+.dish.sold-out {
+  color: #888;
+}
+
+.dish.sold-out img {
+  filter: grayscale();
+  opacity: 0.8;
+}
